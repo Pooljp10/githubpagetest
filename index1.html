@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS envelope + letter (open/close)</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="envelope-wrapper">
+        <div class="envelope">
+          <div class="letter">
+            <div class="text">
+              <strong> <center> MI CHIKISTRIKIS <3</center> </strong>
+              <p>
+                No imaginas cuanto me haces sentir, cuanto quisiera intentarlo y que se diera algo  muy muy bonito, porque 
+                simplemente me haces sentir algo verdadero y no quiero que cambien las cosas porque te estas volviendo parte
+                de mi, te quiero y no quisiera que las cosas fuesen diferente en ningun sentio. Me encanta la forma en que me haces reir, como me apoyas en todo momento y como me haces sentir amada.
+                Eres mi mejor amiga, mi confidente y mi gran amor. Gracias por ser una parte tan importante de mi vida y 
+                por hacerme sentir tan especial. Te amo mas de lo que las palabras pueden expresar. Eres lo mejor que me 
+                a pasado. Me gustas, me gustas y me seguiras gustando cada dia de mi vida. Creeme cuando digo que me gustas
+                mas que a todo, memencantas tu y solo tu.
+                Solo me quiero quiero hundir  en ese calido y grande amor tuyo, ese mor que abraza tan suavemente, ese amor
+                que espere mucho.
+                Me enamore de tus ojos ojos sin imaginar que abajo de ellos encontraria esos lindos labios, que al sonreir me hicieron
+                enamorarme aun mas, me enamore de las platicas continuas que teniamos por chat de las manera en que hacias, me enamore de la forma
+                que me miras, me enamore de tus besos de tus abrazos y de tus "te extraño" y como pasar el tiempo un "te quiero" se convirtio en un
+                anhelado "te amo", cada dia me enamore mas de la misma persona y eso es lo mejor, eres mi persona favorita con la que quisiera seguiras
+                disfrutando cada momento, porque contigo cada momento es mejor, me haces muy feliz, quiero ser la persona con la que nunca dudes lo mucho
+                que vales y eres, quiero ser la persona que te enamore cada dia mas y que te haga sentir bien.
+                 <center> TE AMO MUCHISIMO!!!</center>                             
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="heart">
+            
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const envelope = document.querySelector('.envelope-wrapper');
+      envelope.addEventListener('click', () => {
+        envelope.classList.toggle('flap');
+      });
+
+    </script>
+
+  </body>
+</html>
